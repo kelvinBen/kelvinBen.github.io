@@ -14,3 +14,4 @@ Disallow: /vendors/
 Disallow: /fancybox/
 
 Sitemap: https://blog.52zhuanke.cn/sitemap.xml
+Sitemap: https://blog.52zhuanke.cn/baidusitemap.xml
