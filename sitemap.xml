@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.52zhuanke.cn/about/index.html</loc>
+    
+    <lastmod>2019-05-19T14:30:08.567Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.52zhuanke.cn/2019/05/19/03/</loc>
     
     <lastmod>2019-05-19T14:01:43.096Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://blog.52zhuanke.cn/2019/05/12/01/</loc>
     
     <lastmod>2019-05-19T14:01:43.088Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.52zhuanke.cn/about/index.html</loc>
-    
-    <lastmod>2019-05-12T17:27:17.606Z</lastmod>
     
   </url>
   
