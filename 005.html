@@ -117,9 +117,9 @@
 <meta property="og:image" content="https://blog.52zhuanke.cn/005/11.png">
 <meta property="og:image" content="https://blog.52zhuanke.cn/005/14.png">
 <meta property="og:image" content="https://blog.52zhuanke.cn/005/15.png">
-<meta property="og:image" content="https://blog.52zhuanke.cn/005/08.png">
+<meta property="og:image" content="https://blog.52zhuanke.cn/005/13.png">
 <meta property="og:image" content="https://blog.52zhuanke.cn/005/11.png">
-<meta property="og:updated_time" content="2019-06-02T14:29:04.209Z">
+<meta property="og:updated_time" content="2019-06-02T14:40:49.677Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="【Hexo系列教程】使用Centos7+Nginx+Hexo+GitHub+Next主题搭建个人博客并自动部署-配置篇">
 <meta name="twitter:description" content="本次演示用到的环境信息阿里云服务器端：  Centos 7.2.0 Git 1.8.3.1 Node.js 12.2.0  Hexo 1.1.0 pm2 3.5.0 Nginx 1.6.3  安装Git并配置GitHub 安装Git  123456789# 使用yum install命令安装Gityum -y install git# 检查是否安装成功git --version # 终端输出git">
@@ -448,7 +448,7 @@
                 
               
 
-              <time title="创建时间：2019-06-02 22:29:04" itemprop="dateCreated datePublished" datetime="2019-06-02T22:29:04+08:00">2019-06-02</time>
+              <time title="创建时间：2019-06-02 22:40:49" itemprop="dateCreated datePublished" datetime="2019-06-02T22:40:49+08:00">2019-06-02</time>
             
 
             
@@ -523,7 +523,7 @@
 <li><p>输入完上面的命令一路回车即可,这个命令会在~/.ssh目录下生成一个公钥文件id_rsa.pub和一个私钥文件id_rsa</p>
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment"># 检查是否创建成功</span></span><br><span class="line">ls ~/.ssh/</span><br><span class="line"><span class="comment"># 终端输出的结果中有id_rsa.pub和id_rsa说明成功，否则说明创建失败</span></span><br><span class="line"><span class="comment"># id_rsa.pub id_rsa</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>接下来我们开始来配置GitHub,访问(<a href="https://github.com)并登录" target="_blank" rel="noopener">https://github.com)并登录</a></p>
+<li><p>接下来我们开始来配置GitHub,访问 <a href="https://github.com" target="_blank" rel="noopener">https://github.com</a> 并登录</p>
 <p> <img src="/./005/01.png" alt="Github"></p>
 </li>
 <li><p>登录成功后，找到页面右上角的头像，然后选择”Settings”</p>
@@ -557,7 +557,7 @@
 </li>
 </ol>
 <h3 id="配置阿里云安全组"><a href="#配置阿里云安全组" class="headerlink" title="配置阿里云安全组"></a>配置阿里云安全组</h3><ol>
-<li><p>访问阿里云并进行登录(<a href="https://account.aliyun.com" target="_blank" rel="noopener">https://account.aliyun.com</a>)</p>
+<li><p>访问阿里云并进行登录 <a href="https://account.aliyun.com" target="_blank" rel="noopener">https://account.aliyun.com</a> </p>
 </li>
 <li><p>找到实例列表，选择要操作的实例，在操作栏，依次点击”更多” ——— “网络和安全组” ———— “安全组配置”，如下图</p>
 <p> <img src="/./005/07.png" alt="安全组配置"></p>
@@ -614,7 +614,7 @@
  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 修改完毕后，按下键盘的"ESC"按键，然后输入:wq保存内容</span></span><br><span class="line">:wq</span><br><span class="line"></span><br><span class="line"><span class="comment">#保存完毕重启nginx   </span></span><br><span class="line">nginx -s reload</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>本地浏览器输入”阿里云公网IP”即可访问到下图的界面</p>
-<p><img src="/./005/08.png" alt="Nginx"></p>
+<p><img src="/./005/13.png" alt="Nginx"></p>
 </li>
 <li><p>注意配置完毕后，记得将阿里云的4000端口设置为拒绝或者是删除，如图</p>
 <p><img src="/./005/11.png" alt="端口列表"></p>
@@ -681,8 +681,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/009.html" rel="next" title="【Hexo系列教程】使用Centos7+Nginx+Hexo+GitHub+Next主题搭建个人博客并自动部署-SEO优化篇">
-                <i class="fa fa-chevron-left"></i> 【Hexo系列教程】使用Centos7+Nginx+Hexo+GitHub+Next主题搭建个人博客并自动部署-SEO优化篇
+              <a href="/004.html" rel="next" title="【Hexo系列教程】使用Centos7+Nginx+Hexo+GitHub+Next主题搭建个人博客并自动部署-前言">
+                <i class="fa fa-chevron-left"></i> 【Hexo系列教程】使用Centos7+Nginx+Hexo+GitHub+Next主题搭建个人博客并自动部署-前言
               </a>
             
           </div>
@@ -690,10 +690,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/004.html" rel="prev" title="【Hexo系列教程】使用Centos7+Nginx+Hexo+GitHub+Next主题搭建个人博客并自动部署-前言">
-                【Hexo系列教程】使用Centos7+Nginx+Hexo+GitHub+Next主题搭建个人博客并自动部署-前言 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
